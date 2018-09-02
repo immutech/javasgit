@@ -10,13 +10,13 @@
     <style type="text/css">
         
     #redcircle {
+       
       height:100px;
       width:100px;
       background-color:red;
       border-radius:50px;
       border:3px black solid;
-      color:white;
-      font-weight:bold;
+      margin:200px;
     }
         
     </style>
@@ -31,12 +31,14 @@
     
     <button id="disappear">GOODBYE!</button>
     
+    <br/><br/><br/>
+    
     <div id="redcircle"></div>
  
  <script type="text/javascript">
   
     document.getElementById("disappear").onclick=funtion(){
-      document.getElementById("redbutton").style.display=none;
+      document.getElementById("redcircle").style.display=none;
     }
   
   </script>
